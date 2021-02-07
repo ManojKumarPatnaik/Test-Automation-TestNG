@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parameters-Suite">
+	<test name="Parameters-Test">
+	<parameter name="browser" value="firefox"></parameter>
+	<parameter name="OS" value="Linux"></parameter>
+	<parameter name="responseTime" value="0.5"></parameter>
+		<classes>
+			<class name="testclasses.TestNG_Parameters"></class>
+		</classes>
+	</test>
+
+</suite>

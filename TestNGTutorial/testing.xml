@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regressing TestSuite">
+	<test name="Application Test">
+	
+	<!-- <packages>
+		<package name=" "></package>  to execute a package with many classes
+	</packages>    -->
+		<classes>
+			<class name="testclasses.NewTest"></class>
+			<class name="testclasses.TestSuite"></class>
+		</classes>
+	</test>
+</suite>

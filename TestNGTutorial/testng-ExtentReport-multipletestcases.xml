@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Extent Test Suite">
+	<test name="Extent Report Test">
+		<classes>
+			<class name="extentreports.ExtentReportTest"></class>
+			<class name="extentreports.ExtentReportTest2"></class>
+		</classes>
+	</test>
+
+</suite>

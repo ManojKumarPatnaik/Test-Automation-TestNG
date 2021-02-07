@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Multiple Test Suites" >
+ 	<suite-files>
+ 	<suite-file path="testng-parallel.xml"></suite-file>
+ 	<suite-file path="testng-parameters.xml"></suite-file>
+ 	<suite-file path="testing-listeners.xml"></suite-file>
+ 	
+ 	</suite-files>
+
+</suite>

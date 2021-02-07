@@ -1,0 +1,30 @@
+
+<suite name="Selenium Grid TestSuite" parallel="tests">
+<test name="Firefox Test">
+<parameters>
+	<parameter name="platform" value="Windows"/>
+	<parameter name="browser" value="firefox"/>
+	<parameter name="version" value="83.0"/>
+	<parameter name="url" value="https://www.expedia.co.in/"/>
+</parameters>
+		<classes>
+			<class name="seleniumgridtest.SeleniumGridTestFramework"></class>
+		</classes>
+	
+</test>
+<test name="Chrome Test">
+<parameters>
+	<parameter name="platform" value="Windows"/>
+	<parameter name="browser" value="chrome"/>
+	<parameter name="version" value="87.0.4280.88 "/>
+	<parameter name="url" value="https://www.expedia.co.in/"/>
+
+</parameters>
+		<classes>
+			<class name="seleniumgridtest.SeleniumGridTestFramework"></class>
+		</classes>
+	
+</test>
+
+
+</suite>

@@ -1,0 +1,47 @@
+
+
+
+<UserDetails>
+	<User id="1">
+		<FirstName>Rahul</FirstName>
+		<LastName>Dravid</LastName>
+		<Username>Rahul Dravid</Username>
+		<Password>RD@123</Password>
+	</User>
+	<User id="2">
+		<FirstName>Sachin</FirstName>
+		<LastName>Tendulkar</LastName>
+		<Username>Sachine Tendulkar Tewatia</Username>
+		<Password>st@123</Password>
+	</User>
+</UserDetails>
+ 
+ 
+ 
+<!-- 
+
+
+<elements>
+
+	<element name="homepage-from" >//input[@id='gosuggest_inputSrc']</element>
+	<element  name="homepage-to" >//input[@id='gosuggest_inputDest']</element>
+
+
+
+
+
+</elements>
+
+
+ <elements>
+
+	<element name="homepage-from" locator="//input[@id='gosuggest_inputSrc']"/>
+	<element name="homepage-to" locator="//input[@id='gosuggest_inputDest']"/>
+
+
+
+
+
+</elements>
+
+ -->

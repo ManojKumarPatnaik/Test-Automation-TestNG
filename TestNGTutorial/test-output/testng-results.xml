@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Code in the before class]]>
+    </line>
+    <line>
+      <![CDATA[Code in the method1]]>
+    </line>
+    <line>
+      <![CDATA[Code in the method2]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-02-03T20:56:54 IST" name="Listeners Suite" finished-at="2021-02-03T20:56:54 IST" duration-ms="12">
+    <groups>
+    </groups>
+    <test started-at="2021-02-03T20:56:54 IST" name="Application Test" finished-at="2021-02-03T20:56:54 IST" duration-ms="12">
+      <class name="testclasses.TestNG_Listener1">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testclasses.TestNG_Listener1@769f71a9]" started-at="2021-02-03T20:56:54 IST" name="beforeClass" finished-at="2021-02-03T20:56:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Code in the before class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testMethod1()[pri:0, instance:testclasses.TestNG_Listener1@769f71a9]" started-at="2021-02-03T20:56:54 IST" name="testMethod1" finished-at="2021-02-03T20:56:54 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Code in the method1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method signature="testMethod2()[pri:0, instance:testclasses.TestNG_Listener1@769f71a9]" started-at="2021-02-03T20:56:54 IST" name="testMethod2" finished-at="2021-02-03T20:56:54 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:86)
+at org.junit.Assert.assertTrue(Assert.java:41)
+at org.junit.Assert.assertTrue(Assert.java:52)
+at testclasses.TestNG_Listener1.testMethod2(TestNG_Listener1.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Code in the method2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testclasses.TestNG_Listener1@769f71a9]" started-at="2021-02-03T20:56:54 IST" name="afterClass" finished-at="2021-02-03T20:56:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testclasses.TestNG_Listener1 -->
+    </test> <!-- Application Test -->
+  </suite> <!-- Listeners Suite -->
+  <suite started-at="2021-02-03T20:56:44 IST" name="Parallel TestSuite" finished-at="2021-02-03T20:56:54 IST" duration-ms="10042">
+    <groups>
+    </groups>
+    <test started-at="2021-02-03T20:56:44 IST" name="Test-1" finished-at="2021-02-03T20:56:54 IST" duration-ms="10042">
+      <class name="testclasses.TestNG_Parallel">
+        <test-method signature="testMethod1()[pri:0, instance:testclasses.TestNG_Parallel@54c562f7]" started-at="2021-02-03T20:56:44 IST" name="testMethod1" finished-at="2021-02-03T20:56:49 IST" duration-ms="5007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method signature="testMethod2()[pri:0, instance:testclasses.TestNG_Parallel@54c562f7]" started-at="2021-02-03T20:56:49 IST" name="testMethod2" finished-at="2021-02-03T20:56:54 IST" duration-ms="5001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+      </class> <!-- testclasses.TestNG_Parallel -->
+    </test> <!-- Test-1 -->
+    <test started-at="2021-02-03T20:56:44 IST" name="Test-2" finished-at="2021-02-03T20:56:54 IST" duration-ms="10042">
+      <class name="testclasses.TestNG_Parallel1">
+        <test-method signature="testMethod1()[pri:0, instance:testclasses.TestNG_Parallel1@60d8c9b7]" started-at="2021-02-03T20:56:44 IST" name="testMethod1" finished-at="2021-02-03T20:56:49 IST" duration-ms="5007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method signature="testMethod2()[pri:0, instance:testclasses.TestNG_Parallel1@60d8c9b7]" started-at="2021-02-03T20:56:49 IST" name="testMethod2" finished-at="2021-02-03T20:56:54 IST" duration-ms="5001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+      </class> <!-- testclasses.TestNG_Parallel1 -->
+    </test> <!-- Test-2 -->
+  </suite> <!-- Parallel TestSuite -->
+  <suite started-at="2021-02-03T20:56:54 IST" name="Multiple Test Suites" finished-at="2021-02-03T20:56:54 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Multiple Test Suites -->
+  <suite started-at="2021-02-03T20:56:54 IST" name="Parameters-Suite" finished-at="2021-02-03T20:56:54 IST" duration-ms="9">
+    <groups>
+    </groups>
+    <test started-at="2021-02-03T20:56:54 IST" name="Parameters-Test" finished-at="2021-02-03T20:56:54 IST" duration-ms="9">
+      <class name="testclasses.TestNG_Parameters">
+        <test-method signature="testParameters1(java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestNG_Parameters@363ee3a2]" started-at="2021-02-03T20:56:54 IST" name="testParameters1" finished-at="2021-02-03T20:56:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameters1 -->
+        <test-method signature="testParameters2(java.lang.String)[pri:0, instance:testclasses.TestNG_Parameters@363ee3a2]" started-at="2021-02-03T20:56:54 IST" name="testParameters2" finished-at="2021-02-03T20:56:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameters2 -->
+      </class> <!-- testclasses.TestNG_Parameters -->
+    </test> <!-- Parameters-Test -->
+  </suite> <!-- Parameters-Suite -->
+</testng-results>

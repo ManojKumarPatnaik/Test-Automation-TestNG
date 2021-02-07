@@ -1,0 +1,26 @@
+
+<Companies >
+
+
+	<Company>
+		<id>101</id>
+		<firstname>Amazon</firstname>
+		<lastname>AMZN</lastname>
+		<StockPrice>1283</StockPrice>
+	</Company>
+
+ 	<Company>
+		<id>102</id>
+		<firstname>Google</firstname>
+		<lastname>GOOL</lastname>
+		<StockPrice>1160</StockPrice>
+	</Company>
+
+	<Company>
+		<id>103</id>
+		<firstname>Tesla</firstname>
+		<lastname>TSL</lastname>
+		<StockPrice>890</StockPrice>
+	</Company>  
+
+</Companies>

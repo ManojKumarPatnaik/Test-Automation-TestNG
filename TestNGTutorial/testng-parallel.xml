@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel TestSuite" parallel="tests" thread-count="2">
+	<test name="Test-1">
+		<classes>
+			<class name="testclasses.TestNG_Parallel"></class>
+		</classes>
+	</test>
+	
+	
+	<test name="Test-2">
+		<classes>
+			<class name="testclasses.TestNG_Parallel1"></class>
+		</classes>
+	</test>
+
+
+</suite>
