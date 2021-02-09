@@ -163,6 +163,11 @@ public class XMLExercise {
 
 	public static void main(String[] args) {
 		XMLExercise xml = new XMLExercise();
+		xml.ReadFile("XMLExercise.xml", "1");
+		System.out.println(xml.getFirstName(1));
+		System.out.println(xml.getLastName(1));
+		System.out.println(xml.getuserName(1));
+		System.out.println(xml.getPassword(1));
 		xml.ReadFile("XMLExercise.xml", "2");
 		System.out.println(xml.getFirstName(2));
 		System.out.println(xml.getLastName(2));

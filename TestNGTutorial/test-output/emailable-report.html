@@ -8,34 +8,12 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Listeners Suite</th></tr>
-<tr><td><a href="#t0">Application Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">12</td><td></td><td></td></tr>
-<tr><th colspan="8">Parallel TestSuite</th></tr>
-<tr class="stripe"><td><a href="#t1">Test-1</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">10,042</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Test-2</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">10,042</td><td></td><td></td></tr>
-<tr><th colspan="8">Multiple Test Suites</th></tr>
-<tr><th colspan="8">Parameters-Suite</th></tr>
-<tr class="stripe"><td><a href="#t3">Parameters-Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">9</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">7</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">20,105</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">28,728</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Listeners Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Application Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testclasses.TestNG_Listener1</td><td><a href="#m0">testMethod2</a></td><td rowspan="1">1612366014510</td><td rowspan="1">1</td></tr><tr><th colspan="4">Application Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testclasses.TestNG_Listener1</td><td><a href="#m1">testMethod1</a></td><td rowspan="1">1612366014505</td><td rowspan="1">4</td></tr></tbody>
-<tbody><tr><th colspan="4">Parallel TestSuite</th></tr></tbody><tbody id="t1"><tr><th colspan="4">Test-1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testclasses.TestNG_Parallel</td><td><a href="#m2">testMethod1</a></td><td rowspan="1">1612366004410</td><td rowspan="1">5007</td></tr><tr class="passedeven"><td><a href="#m3">testMethod2</a></td><td rowspan="1">1612366009420</td><td rowspan="1">5001</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Test-2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testclasses.TestNG_Parallel1</td><td><a href="#m4">testMethod1</a></td><td rowspan="1">1612366004410</td><td rowspan="1">5007</td></tr><tr class="passedeven"><td><a href="#m5">testMethod2</a></td><td rowspan="1">1612366009420</td><td rowspan="1">5001</td></tr></tbody>
-<tbody><tr><th colspan="4">Multiple Test Suites</th></tr></tbody><tbody><tr><th colspan="4">Parameters-Suite</th></tr></tbody><tbody id="t3"><tr><th colspan="4">Parameters-Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testclasses.TestNG_Parameters</td><td><a href="#m6">testParameters1</a></td><td rowspan="1">1612366014485</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m7">testParameters2</a></td><td rowspan="1">1612366014488</td><td rowspan="1">1</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">readfromexcel.WriteToExcel</td><td><a href="#m0">test</a></td><td rowspan="2">1612878346951</td><td rowspan="2">11512</td></tr><tr class="passedeven"><td><a href="#m1">test</a></td></tr></tbody>
 </table>
-<h2>Application Test</h2><h3 id="m0">testclasses.TestNG_Listener1#testMethod2</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Code in the method2</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at testclasses.TestNG_Listener1.testMethod2(TestNG_Listener1.java:41)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testclasses.TestNG_Listener1#testMethod1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Code in the method1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test-1</h2><h3 id="m2">testclasses.TestNG_Parallel#testMethod1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testclasses.TestNG_Parallel#testMethod2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test-2</h2><h3 id="m4">testclasses.TestNG_Parallel1#testMethod1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testclasses.TestNG_Parallel1#testMethod2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Parameters-Test</h2><h3 id="m6">testclasses.TestNG_Parameters#testParameters1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>firefox</td><td>Linux</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">testclasses.TestNG_Parameters#testParameters2</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>0.5</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">readfromexcel.WriteToExcel#test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Ben</td><td>Bengaluru, India</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">readfromexcel.WriteToExcel#test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Del</td><td>Delhi,India</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

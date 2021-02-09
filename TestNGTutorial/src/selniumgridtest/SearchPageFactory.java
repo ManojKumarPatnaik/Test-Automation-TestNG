@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class SearchPageFactory {
 	WebDriver driver;
-
+	
 	@FindBy(id = "header-history")
 	WebElement headerHistory;
 
@@ -33,6 +33,7 @@ public class SearchPageFactory {
 
 	public SearchPageFactory(WebDriver driver) {
 		this.driver = driver;
+		
 		PageFactory.initElements(driver, this);
 	}
 

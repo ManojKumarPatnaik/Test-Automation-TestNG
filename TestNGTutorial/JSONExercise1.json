@@ -1,0 +1,23 @@
+{
+	"cover":"AddressBook",
+	"Addresses":[
+		{
+			"id":"1",
+			"NickName":"Rahul",
+			"ContactName":"Dravid",
+         	"Company":"Cricket",
+         	"City":"Indore",
+         	"Country":"India",
+         	"Type":"Address"
+     	 },
+		{
+			"id":"2",
+			"NickName":"Sachin",
+			"ContactName":"Tendulkar",
+         	"Company":"Cricket",
+         	"City":"Mumbai",
+         	"Country":"India",
+         	"Type":"Address"
+     	 }
+	]
+}
