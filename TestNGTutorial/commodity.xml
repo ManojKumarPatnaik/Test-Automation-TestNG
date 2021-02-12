@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Commoditydetails>
+  <Commodity id = "1">
+    <Name>Commodity1</Name>
+    <Weight>20</Weight>
+    <Length>150</Length>
+    <Width>200</Width>
+    <Height>100</Height>
+ </Commodity>
+ <Commodity id = "2">
+    <Name>Commodity2</Name>
+    <Weight>15</Weight>
+    <Length>140</Length>
+    <Width>170</Width>
+    <Height>120</Height>
+ </Commodity>
+</Commoditydetails>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Userdetails>
+  <User id = "1">
+    <Name>Rahul</Name>
+    <Email>test1234@gmail.com</Email>
+    <Phone>9871231211</Phone>
+    <Age>25</Age>
+    <Password>RD@123</Password>
+    <Hobbies>Cricket</Hobbies>
+    <Gender>Male</Gender>
+    <City>Chennai</City>
+    <Address>Chennai</Address>
+   
+  </User>
+    <User id = "2">
+    <Name>Sachin</Name>
+    <Email>Sachin@gmail.com</Email>
+    <Phone>98444431211</Phone>
+    <Age>45</Age>
+    <Password>sd@123</Password>
+    <Hobbies>Footbal</Hobbies>
+    <Gender>Female</Gender>
+    <City>Kolkata</City>
+    <Address>Bengaluru</Address>
+   
+  </User>
+</Userdetails>

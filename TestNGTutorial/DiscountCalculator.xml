@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Shipmentdetails>
+  <Shipmentdetail id = "1">
+    <Weight>150</Weight>
+    <Distance>600</Distance>
+  </Shipmentdetail>
+</Shipmentdetails>
