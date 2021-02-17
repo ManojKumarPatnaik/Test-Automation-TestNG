@@ -14,7 +14,7 @@ import org.json.simple.parser.ParseException;
 public class JSONExercise1 {
 
 	private JSONArray address;
-	private JSONArray input;
+	
 
 	public JSONArray ReadFile(String filename) {
 		try {
@@ -42,11 +42,16 @@ public class JSONExercise1 {
 
 	public String getNickName(int id) {
 		
-		
-		input=(JSONArray) address.get(id-1);
-		
-		JSONObject obj=(JSONObject) new JSONObject().put("array", input);
+		JSONObject obj=(JSONObject)address.get(id-1);
+		//System.out.println(obj);
 		return (String)obj.get("NickName");
+		
+		//		input=(JSONArray) address.get(id-1);
+//		
+//		JSONObject obj=(JSONObject) new JSONObject().put("array", input);
+		
+		
+		//return (String)obj.get("NickName");
 		
 	}
 
@@ -54,7 +59,7 @@ public class JSONExercise1 {
 
 		JSONExercise1 ex = new JSONExercise1();
 		ex.ReadFile("JSONExercise1.json");
-		//ex.getNickName(1);
+		System.out.println(ex.getNickName(1));
 
 	}
 }
