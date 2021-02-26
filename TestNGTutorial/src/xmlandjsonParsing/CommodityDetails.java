@@ -162,6 +162,8 @@ public class CommodityDetails { // Do not change the class name
 		height = driver.findElement(By.xpath("//tbody[1]/tr[" + count + "]/td[5]")).getText();
 
 		System.out.println(name + " " + weight + " " + length + " " + width + " " + height);
+		System.out.println(CommodityDetails.getCommodityCount());
+		System.out.println(CommodityDetails.getTotalComWeight());
 		count++;
 	}
 
@@ -191,7 +193,7 @@ public class CommodityDetails { // Do not change the class name
 
 		driver.findElement(By.id("name")).sendKeys(getName(id).getTextContent());
 		driver.findElement(By.id("weight")).sendKeys(getWeight(id).getTextContent());
-		driver.findElement(By.id("length")).sendKeys(getWeight(id).getTextContent());
+		driver.findElement(By.id("length")).sendKeys(getLength(id).getTextContent());
 		driver.findElement(By.id("width")).sendKeys(getWidth(id).getTextContent());
 		driver.findElement(By.id("height")).sendKeys(getHeight(id).getTextContent());
 
@@ -206,8 +208,7 @@ public class CommodityDetails { // Do not change the class name
 		commodity.readFile(System.getProperty("user.dir") + "//commodity.xml", "1");
 		commodity.submitForm(1);
 		commodity.readInsertedData();
-		System.out.println(CommodityDetails.getCommodityCount());
-		System.out.println(CommodityDetails.getTotalComWeight());
+
 
 	}
 
